@@ -60,6 +60,7 @@
   color: #1F1534;
   text-decoration: none;
   opacity: 0.5;
+  white-space: nowrap;
 }
 
 .header .navegacao .menu .item-menu:hover{
