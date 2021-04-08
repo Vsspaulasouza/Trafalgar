@@ -46,6 +46,7 @@
   text-decoration: none;
   text-align: center;
   margin-top: 48px;
+  transition: 400ms;
 }
 .secao-inicial .apresentacao a:hover{
   background-color: #66B6FA;
