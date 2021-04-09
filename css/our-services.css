@@ -1,9 +1,12 @@
 .our-services{
+  max-width: 100%;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  padding: 0 4vw;
 }
 
 .our-services .header{
@@ -30,15 +33,18 @@
 }
 
 .our-services .content{
+  max-width: 1120px;
   margin-top: 70px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px,375px));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   grid-template-rows: repeat(2,1fr);
   grid-gap: 25px;
+  position: relative;
+  z-index: 70;
 }
 
 .our-services .content .card{
-  max-width: 350px;
+  max-width: 100%;
   background-color: #fff;
   padding: 59px 45px 46px 39px;
   border-radius: 10px;
@@ -72,4 +78,84 @@
 
 .our-services .fundo{
   max-width: 853px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 60;
+}
+
+.our-services .pontos{
+  max-width: 131px;
+  position: absolute;
+  top: 500px;
+  right: 40px;
+  z-index: 60;
+}
+
+@media(max-width: 1000px){
+  .our-services .content{
+    margin-top: 60px;
+    grid-template-columns: repeat(2, minmax(300px, auto));
+  }
+  .our-services .btn{
+    margin-top: 40px;
+  }
+  .our-services .fundo{
+    width: 800px;
+  }
+  .our-services .pontos{
+    width: 100px;
+    top: 800px;
+  }
+}
+@media(max-width: 820px){
+  .our-services{
+    margin-top: 70px;
+  }
+  .our-services .content{
+    margin-top: 50px;
+  }
+  .our-services .btn{
+    margin-top: 25px;
+  }
+  .our-services .fundo{
+    width: 700px;
+  }
+  .our-services .pontos{
+    width: 80px;
+  }
+}
+@media(max-width: 715px){
+  .our-services{
+    margin-top: 50px;
+  }
+  .our-services .title{
+    text-align: initial;
+  }
+  .our-services .text{
+    max-width: 500px;
+  }
+  .our-services .content{
+    margin-top: 30px;
+    grid-template-columns: repeat(2, minmax(250px, auto));
+  }
+  .our-services .fundo{
+    width: 600px;
+  }
+  .our-services .pontos{
+    width: 60px;
+    top: 850px;
+  }
+}
+@media(max-width: 610px){
+  .our-services .content{
+    grid-template-columns: minmax(250px, 370px);
+  }
+  .our-services .fundo{
+    width: 500px;
+    top: 400px;
+  }
+  .our-services .pontos{
+    display: none;
+  }
 }
