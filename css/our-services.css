@@ -158,4 +158,53 @@
   .our-services .pontos{
     display: none;
   }
+  .our-services .content .card{
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(150px, 1fr);
+    padding: 50px 35px 36px 29px;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    max-height: 150px;
+  }
+
+  .our-services .content .card .image-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .our-services .content .card .title-card{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 5.6rem;
+    align-self: center;
+    color: #000;
+  }
+
+  .our-services .content .card .text-card{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #7d7987;
+  }
+}
+
+@media(max-width: 510px){
+  .our-services .fundo{
+    width: 400px;
+    top: 400px;
+  }
+  .our-services .content .card{
+    padding: 40px 25px 26px 19px;
+  }
+}
+@media(max-width: 410px){
+  .our-services .fundo{
+    width: 300px;
+    top: 400px;
+  }
 }
