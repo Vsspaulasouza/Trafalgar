@@ -164,6 +164,16 @@
     max-width: 350px;
     margin-top: 30px;
   }
+  .secao-inicial .apresentacao h1{
+    text-align: center;
+  }
+  .secao-inicial .apresentacao p{
+    text-align: center;
+  }
+  .secao-inicial .apresentacao a{
+    align-self: center;
+    padding: 5px 40px;
+  }
 }
 @media (max-width: 530px){
   .secao-inicial .banner-principal{
@@ -183,6 +193,10 @@
   }
   .secao-inicial .apresentacao{
     max-width: 300px;
+  }
+  .secao-inicial .apresentacao a{
+    align-self: center;
+    padding: 3px 35px;
   }
 }
 @media (max-width: 380px){
