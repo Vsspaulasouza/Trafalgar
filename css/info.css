@@ -101,3 +101,16 @@
     width: 360px;
   }
 }
+@media(max-width: 680px){
+  .info{
+    flex-direction: column;
+  }
+  #info-2{
+    flex-direction: column-reverse;
+  }
+}
+@media(max-width: 400px){
+  .info img{
+    width: 300px;
+  }
+}
