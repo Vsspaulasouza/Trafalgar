@@ -1,0 +1,8 @@
+.slider{
+  margin-top: 100px;
+}
+
+.slide-item{
+  items: 2,
+  background-color: blue;
+}
