@@ -1,4 +1,77 @@
 .testimonials{
+  position: absolute;
+  margin-top: 7vw;
   max-width: 1200px;
   max-height: 500px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.testimonials .my-slider .slide{
+  max-width: 1120px;
+  max-height: 425px;
+  background: rgb(34,193,195);
+  background: linear-gradient(208.18deg, rgb(103, 195, 243) 9.05%, rgb(90, 152, 242) 76.74%);
+  padding: 60px 110px;
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 400px 600px;
+}
+
+.testimonials .my-slider .slide .pontos{
+  position: absolute;
+  top: -13px;
+  right: -53px;
+}
+
+.testimonials .my-slider .slide .title-slide{
+  grid-column: 1/3;
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+  color: #fff;
+  justify-self: center;
+  margin-bottom: 15px;
+}
+
+.testimonials .my-slider .slide hr{
+  grid-column: 1/3;
+  width: 56px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 6px;
+  margin-bottom: 60px;
+}
+
+.testimonials .my-slider .slide .person-slide{
+  grid-column: 1/2;
+  min-width: 354px;
+}
+
+.testimonials .my-slider .slide .person-slide .img-person{
+
+}
+
+.testimonials .my-slider .slide .person-slide .name-person{
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 4.8rem;
+  color: #fff;
+}
+
+.testimonials .my-slider .slide .person-slide .city-person{
+  font-size: 1.8rem;
+  line-height: 4.8rem;
+  color: #fff;
+}
+
+.testimonials .my-slider .slide .testimonial{
+  grid-column: 2/3;
+  min-width: 420px;
+}
+
+.testimonials .my-slider .slide .testimonial p{
+  font-size: 1.9rem;
+  line-height: 3.0rem;
+  color: #fff;
 }
