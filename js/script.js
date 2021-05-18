@@ -11,5 +11,14 @@ menuMobile.init();
 // slider
 tns({
   container: ".my-slider",
-  fixedWidth: 300,
+  loop: true,
+  items: 1,
+  edgePadding: 40,
+  slideBy: "page",
+  nav: false,
+  autoplay: true,
+  speed: 400,
+  autoplayButtonOutput: false,
+  mouseDrag: true,
+  lazyload: true,
 });
