@@ -5,6 +5,7 @@
   max-height: 500px;
   left: 50%;
   transform: translate(-50%);
+  padding-bottom: 20px;
 }
 
 .testimonials .my-slider .slide{
@@ -16,12 +17,12 @@
   border-radius: 24px;
   display: grid;
   grid-template-columns: 400px 600px;
+  align-items: center;
 }
 
 .testimonials .my-slider .slide .pontos{
   position: absolute;
   top: -13px;
-  right: -53px;
 }
 
 .testimonials .my-slider .slide .title-slide{
@@ -45,33 +46,83 @@
 
 .testimonials .my-slider .slide .person-slide{
   grid-column: 1/2;
-  min-width: 354px;
+  max-width: 354px;
+  display: grid;
+  grid-template-columns: 145px 185px;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1vw;
 }
 
 .testimonials .my-slider .slide .person-slide .img-person{
-
+  grid-column: 1/2;
+  grid-row: 1/3;
 }
 
 .testimonials .my-slider .slide .person-slide .name-person{
+  grid-column: 2/3;
+  grid-row: 1/2;
   font-weight: bold;
   font-size: 2.2rem;
   line-height: 4.8rem;
   color: #fff;
+  align-self: flex-end;
 }
 
 .testimonials .my-slider .slide .person-slide .city-person{
+  grid-column: 2/3;
+  grid-row: 2/3;
   font-size: 1.8rem;
   line-height: 4.8rem;
   color: #fff;
+  align-self: flex-start;
 }
 
 .testimonials .my-slider .slide .testimonial{
   grid-column: 2/3;
-  min-width: 420px;
-}
-
-.testimonials .my-slider .slide .testimonial p{
+  max-width: 420px;
   font-size: 1.9rem;
   line-height: 3.0rem;
   color: #fff;
+  justify-self: center;
+}
+
+.testimonials #controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.testimonials #controls button{
+  color: #458FF6;
+  font-size: 4.0rem;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.testimonials #controls button:hover{
+  opacity: unset;
+}
+
+.testimonials #controls #nav{
+  margin: 0 70px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials #controls #nav button{
+  background-color: #5B9BF3;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+}
+
+.testimonials #controls #nav .tns-nav-active{
+  opacity: unset;
 }

@@ -21,4 +21,8 @@ tns({
   autoplayButtonOutput: false,
   mouseDrag: true,
   lazyload: true,
+  controlsContainer: "#controls",
+  prevButton: ".prev",
+  nextButton: ".next",
+  navContainer: "#nav",
 });
