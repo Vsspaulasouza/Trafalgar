@@ -9,15 +9,16 @@
 }
 
 .testimonials .my-slider .slide{
-  max-width: 1120px;
+  max-width: 100%;
   max-height: 425px;
   background: rgb(34,193,195);
   background: linear-gradient(208.18deg, rgb(103, 195, 243) 9.05%, rgb(90, 152, 242) 76.74%);
-  padding: 60px 110px;
+  padding: 3.5vw 6vw;
   border-radius: 24px;
   display: grid;
-  grid-template-columns: 400px 600px;
+  grid-template-columns: minmax(1fr,400px) minmax(1fr,600px);
   align-items: center;
+  column-gap: 2vw;
 }
 
 .testimonials .my-slider .slide .pontos{
@@ -48,9 +49,9 @@
   grid-column: 1/2;
   max-width: 354px;
   display: grid;
-  grid-template-columns: 145px 185px;
+  grid-template-columns: minmax(1fr, 145px) minmax(1fr, 185px);
   grid-template-rows: 1fr 1fr;
-  column-gap: 1vw;
+  column-gap: 2vw;
 }
 
 .testimonials .my-slider .slide .person-slide .img-person{
@@ -125,4 +126,35 @@
 
 .testimonials #controls #nav .tns-nav-active{
   opacity: unset;
+}
+
+@media (max-width: 1000px){
+  .testimonials .my-slider .slide .person-slide .img-person{
+    width: 120px;
+  }
+}
+@media (max-width: 900px){
+  .testimonials .my-slider .slide .person-slide .img-person{
+    width: 100px;
+  }
+}
+@media (max-width: 800px){
+  .testimonials .my-slider .slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonials .my-slider .slide .pontos{
+    display: none;
+  }
+  .testimonials .my-slider .slide hr{
+    margin-bottom: 20px;
+  }
+  .testimonials .my-slider .slide .person-slide{
+    margin-bottom: 10px;
+  }
+  .testimonials .my-slider .slide .person-slide .img-person{
+    width: 90px;
+  }
 }
