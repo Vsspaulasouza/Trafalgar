@@ -1,0 +1,87 @@
+.articles{
+  max-width: 100%;
+  margin-top: 6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.articles .title{
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 5.6rem;
+}
+
+.articles hr{
+  margin-top: 20px;
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: #000;
+}
+
+.articles .article-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles .article-container .article{
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.articles .article-container #article-middle{
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.articles .article-container .article .article-img{
+  border-radius: 20px 20px 0 0;
+}
+
+.articles .article-container .article .text-container{
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.articles .article-container .article .article-title{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 2.1rem;
+  line-height: 3.2rem;
+}
+
+.articles .article-container .article .article-text{
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #7D7987;
+  margin-bottom: 20px;
+}
+
+.articles .article-container .article .read-more{
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  color: #4089ED;
+  text-decoration: none;
+}
+
+.articles .article-container .article .read-more:hover{
+  opacity: .8;
+}
+
+.articles .articles-btn{
+  margin-top: 30px;
+}
