@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
+  padding: 0 2vw 40px 2vw;
 }
 
 .articles .title{
@@ -24,9 +24,10 @@
 }
 
 .articles .article-container{
+  max-width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .articles .article-container .article{
@@ -46,6 +47,7 @@
 }
 
 .articles .article-container .article .article-img{
+  max-width: 100%;
   border-radius: 20px 20px 0 0;
 }
 
@@ -84,4 +86,26 @@
 
 .articles .articles-btn{
   margin-top: 30px;
+}
+
+@media (max-width: 600px){
+  .articles{
+    margin-top: 60px;
+  }
+  .articles hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .articles .article-container{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .articles .article-container .article{
+    margin-bottom: 20px;
+  }
+  .articles .articles-btn{
+    margin-top: 10px;
+  }
 }
