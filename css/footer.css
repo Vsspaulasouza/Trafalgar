@@ -1,0 +1,124 @@
+.footer{
+  margin-top: 50px;
+  max-width: 100%;
+  display: flex;
+  padding: 90px 10vw 90px 10vw;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer .main-footer{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+
+.footer .main-footer .logo{
+  display: flex;
+  align-items: center;
+}
+
+.footer .main-footer .logo .text-logo{
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 41px;
+  color: #fff;
+}
+
+.footer .main-footer .logo .logo-circle{
+  width: 41px;
+  height: 41px;
+  border-radius: 50px;
+  margin-right: 12px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 41px;
+  font-weight: bold;
+  background-color: #fff;
+  text-decoration: none;
+  color: #5B9BF3;
+}
+
+.footer .main-footer .text-footer{
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #fff;
+}
+
+.footer .main-footer .copy-footer{
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #fff;
+}
+
+.footer .menu-footer{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .menu-footer .menu-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .menu-footer .menu-container .title-menu{
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 6rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer .menu-footer .menu-container .options .option{
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.footer .menu-footer .menu-container .options .option:hover{
+  opacity: .8;
+}
+
+.footer .menu-footer .menu-container .options .option a{
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 3.8rem;
+  color: #fff;
+}
+
+@media (max-width: 1000px){
+  .footer{
+    padding: 80px 5vw;
+  }
+}
+@media (max-width: 850px){
+  .footer{
+    padding: 70px 3vw;
+  }
+}
+@media (max-width: 790px){
+  .footer{
+    margin-top: 20px;
+    flex-wrap: wrap-reverse;
+    padding: 50px 3vw;
+  }
+  .footer .menu-footer{
+    width: 100%;
+    padding: 0 0;
+    margin-bottom: 30px;
+  }
+  .footer .main-footer{
+    width: 100%;
+    margin-right: 0;
+  }
+  .footer .menu-footer .menu-container .title-menu{
+    margin-bottom: 5px;
+  }
+}
