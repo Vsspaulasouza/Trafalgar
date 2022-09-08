@@ -3,12 +3,13 @@
 ---
 
 ## 📝 Tabela de conteúdo
--   [Sobre](#about)
--   [Preview](#demo)
--   [Deploy](#deployment)
--   [Construído usando](#built_using)
--   [Rodando o projeto](#getting_started)
--   [Autor](#authors)
+
+- [Sobre](#about)
+- [Preview](#demo)
+- [Construído usando](#built_using)
+- [Deploy](#deployment)
+- [Rodando o projeto](#getting_started)
+- [Autor](#authors)
 
 ## 🧐 Sobre <a name = "about"></a>
 
@@ -20,17 +21,17 @@ Uma landing page feita para aprender tecnologias e ferramentas como: NPM, ESLint
 
 ## ⛏️ Consturído usando <a name = "built_using"></a>
 
--   HTML
--   CSS
--   Javascript
--   [ESLint](https://eslint.org/) - Ferramenta de Lint
--   [Webpack](https://webpack.js.org/) - Ferramenta de Bundle
+- HTML
+- CSS
+- Javascript
+- [ESLint](https://eslint.org/) - Ferramenta de Lint
+- [Webpack](https://webpack.js.org/) - Ferramenta de Bundle
 
 ## 🚀 Deploy <a name = "deployment"></a>
 
 Para visualizar a aplicação, acesse:
 
--   **Github Pages**: https://vsspaulasouza.github.io/Trafalgar/
+- **Github Pages**: https://vsspaulasouza.github.io/Trafalgar/
 
 ---
 
@@ -70,4 +71,5 @@ Após isso será gerado um link para acesso à aplicação rodando em seu ambien
 
 | [<img src="https://avatars.githubusercontent.com/u/69551648?v=4" width=115>](https://github.com/Vsspaulasouza) |
 | -------------------------------------------------------------------------------------------------------------- |
+
 | [Vinícius Soares](https://github.com/Vsspaulasouza)
